@@ -1,0 +1,181 @@
+{
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"basics": {
+		"name": "Aravindh",
+		"label": "Software Engineer",
+		"email": "aravindhkathiresan@gmail.com",
+		"phone": "+91 807 283 02 70",
+		"url": "https://github.com/aravindhkm",
+		"summary": "6 years of IT experience in all phases of the SDLC, including requirement analysis, design, development, testing, and implementation. Experienced in building RESTful APIs, microservices, and cloud-based solutions. Focused on writing clean, scalable code and ensuring quality through testing. Strong team player with a track record of delivering solutions that meet business needs. Also an active open-source contributor.",
+		"location": {
+			"city": "Bengaluru",
+			"countryCode": "IN"
+		},
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "aravindhkm",
+				"url": "https://github.com/aravindhkm"
+			},
+			{
+				"network": "LinkedIn",
+				"url": "https://linkedin.com/in/0xaravindh"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Tech Mahindra",
+			"position": "Software Engineer",
+			"startDate": "2024-07-01",
+			"endDate": "2025-06-30",
+			"summary": "Spearheaded release automation and deployment processes for Google’s Cloud Gaming Platform, ensuring efficient and reliable delivery cycles.",
+			"highlights": [
+				"Contributed to Agones, Google’s open-source Kubernetes-based project for dedicated game server hosting, by handling releases, triaging issues, fixing bugs, and supporting the developer community.",
+				"Collaborated closely with Google engineering teams to monitor production systems, streamline workflows, and resolve deployment bottlenecks in real-time.",
+				"Played a key role in ensuring the seamless and scalable rollout of features critical to the success of Google’s multiplayer cloud gaming infrastructure."
+			],
+			"skills": [
+				"Golang",
+				"Kubernetes",
+				"Docker",
+				"gRPC"
+			]
+		},
+		{
+			"name": "Chaincode Consulting LLP",
+			"position": "Senior Programmer",
+			"startDate": "2023-05-01",
+			"endDate": "2024-07-01",
+			"summary": "Contributed to the development and testing of backend infrastructure for blockchain-based BaaS solutions, gaining hands-on experience with blockchain protocols and BaaS integration.",
+			"highlights": [
+				"Implemented Kubernetes orchestration for blockchain nodes, optimizing resource allocation and enhancing scalability.",
+				"Contributed to the design and implementation of permissioned blockchain network, tailored to meet specific enterprise requirements."
+			],
+			"skills": [
+				"Golang",
+				"Hyperledger Fabric",
+				"Kubernetes",
+				"Blockchain"
+			]
+		},
+		{
+			"name": "Osiz Technologies",
+			"position": "Programmer",
+			"startDate": "2020-09-01",
+			"endDate": "2023-02-28",
+			"summary": "Coordinated daily project activities, including design, planning, and implementation, in collaboration with the Research and Development team.",
+			"highlights": [
+				"Developed and deployed smart contracts and decentralized applications (dApps) on Ethereum; created chaincode in Go for asset tracking on Hyperledger Fabric."
+			],
+			"skills": [
+				"Solidity",
+				"Golang",
+				"Ethereum",
+				"Hyperledger Fabric"
+			]
+		},
+		{
+			"name": "Great-Innovus Solutions",
+			"position": "Associate Software Engineer",
+			"startDate": "2019-08-01",
+			"endDate": "2020-09-01",
+			"summary": "Worked with the team to design, develop, and implement software applications.",
+			"highlights": [
+				"Maintained and debugged code to ensure optimal performance.",
+				"Responsibility involved in the analysis, design, development, and testing phase of the Software Development Life Cycle (SDLC)."
+			],
+			"skills": [
+				"NodeJs",
+				"ReactJs",
+				"PostgreSQL"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Madura College",
+			"area": "Bachelor of Science in Information Technology",
+			"studyType": "Bachelor",
+			"startDate": "2016-08-01",
+			"endDate": "2019-06-30",
+			"location": "Madurai, IN"
+		}
+	],
+	"skills": [
+		{
+			"name": "Programming Languages",
+			"keywords": [
+				"Golang",
+				"NodeJs",
+				"Rust",
+				"Solidity"
+			]
+		},
+		{
+			"name": "Backend & Cloud",
+			"keywords": [
+				"gRPC",
+				"Kubernetes",
+				"Docker",
+				"PostgreSQL",
+				"MongoDB",
+				"Kafka"
+			]
+		},
+		{
+			"name": "Blockchain",
+			"keywords": [
+				"Hyperledger Fabric",
+				"Ethereum",
+				"Smart Contracts",
+				"BaaS"
+			]
+		},
+		{
+			"name": "Frontend",
+			"keywords": [
+				"ReactJs"
+			]
+		}
+	],
+	"projects": [
+		{
+			"name": "Agones",
+			"summary": "Google’s open-source Kubernetes-based project for dedicated game server hosting.",
+			"highlights": [
+				"Handled releases, triaged issues, fixed bugs, and supported the developer community.",
+				"Collaborated closely with Google engineering teams to monitor production systems and streamline workflows."
+			],
+			"url": "https://github.com/googleforgames/agones"
+		},
+		{
+			"name": "NFTrace",
+			"summary": "A platform that harnesses the power of non-fungible tokens (NFTs) to transform industries by providing tamper-proof, traceable, digital records management.",
+			"highlights": [
+				"Handled blockchain-related functionalities, including the integration of smart contracts and transaction management.",
+				"Collaborated with IRCTC to integrate NFT Trace services for the Ram Mandir Temple Pilgrims."
+			]
+		},
+		{
+			"name": "KoinBX",
+			"summary": "A cutting-edge crypto trading platform.",
+			"highlights": [
+				"Developed and executed a scalable solution for fetching Blockchain data in chunks, ensuring efficient retrieval of accounts and balances.",
+				"Implemented Go’s concurrency and used Redis as a cache database."
+			]
+		},
+		{
+			"name": "OborTech",
+			"summary": "An all-in-one solution to enable digitized and traceable supply chains.",
+			"highlights": [
+				"Designed and developed scalable microservices to support OBORTECH’s blockchain-based BaaS platform.",
+				"Implemented Kubernetes for orchestrating blockchain nodes, optimizing resource allocation, and improving system scalability."
+			]
+		}
+	],
+	"meta": {
+		"version": "v1.0.0",
+		"canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+	}
+}

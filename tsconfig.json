@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"jsx": "preserve",
+		"moduleResolution": "nodenext",
+		"resolveJsonModule": true,
+		"module": "NodeNext",
+		"noEmit": true,
+		"lib": ["ES2024", "DOM"],
+		"allowSyntheticDefaultImports": true
+	},
+	"exclude": ["node_modules"]
+}
