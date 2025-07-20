@@ -4,7 +4,6 @@ import resume from "../resume.json";
  * get the url to the website icon
  */
 export const getWebsiteIcon = async (url: string) => {
-	console.log("calling", url);
 	const html = await fetch(url).then((res) => res.text());
 	const iconUrls = [...html.matchAll(/<link[^>]*>/g)]
 		.filter(([l]) => l.match(/rel="([^"]+)"/)?.[1].includes("icon"))
