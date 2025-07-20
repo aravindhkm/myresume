@@ -3,9 +3,9 @@
 	"basics": {
 		"name": "Aravindh",
 		"label": "Software Engineer",
-		"image": "EXAMPLE: https://example.com/path/to/your/avatar.jpg",
+		"image": "https://raw.githubusercontent.com/aravindhkm/myresume/main/assets/image.jpg",
 		"email": "aravindhkathiresan@gmail.com",
-		"phone": "+91 807 283 02 70",
+		"phone": "+91 8072830270",
 		"url": "https://github.com/aravindhkm",
 		"summary": "6 years of IT experience in all phases of the SDLC, including requirement analysis, design, development, testing, and implementation. Experienced in building RESTful APIs, microservices, and cloud-based solutions. Focused on writing clean, scalable code and ensuring quality through testing. Strong team player with a track record of delivering solutions that meet business needs. Also an active open-source contributor.",
 		"location": {
@@ -28,8 +28,8 @@
 			},
 			{
 				"network": "Twitter",
-				"username": "EXAMPLE: yourtwitterhandle",
-				"url": "EXAMPLE: https://twitter.com/yourtwitterhandle"
+				"username": "aravindhkmoffl",
+				"url": "https://x.com/0xaravindh"
 			}
 		]
 	},
@@ -45,7 +45,7 @@
 				"Collaborated closely with Google engineering teams to monitor production systems, streamline workflows, and resolve deployment bottlenecks in real-time.",
 				"Played a key role in ensuring the seamless and scalable rollout of features critical to the success of Google's multiplayer cloud gaming infrastructure."
 			],
-			"url": "EXAMPLE: https://techmahindra.com",
+			"url": "https://www.techmahindra.com/",
 			"location": "Bengaluru, IN",
 			"skills": [
 				"Golang",
@@ -64,8 +64,8 @@
 				"Implemented Kubernetes orchestration for blockchain nodes, optimizing resource allocation and enhancing scalability.",
 				"Contributed to the design and implementation of permissioned blockchain network, tailored to meet specific enterprise requirements."
 			],
-			"url": "EXAMPLE: https://chaincode.com",
-			"location": "EXAMPLE: Remote",
+			"url": "https://www.chaincodeconsulting.com/",
+			"location": "Bengaluru, IN",
 			"skills": [
 				"Golang",
 				"Hyperledger Fabric",
@@ -83,7 +83,7 @@
 				"Developed and deployed smart contracts and decentralized applications (dApps) on Ethereum; created chaincode in Go for asset tracking on Hyperledger Fabric."
 			],
 			"url": "https://www.osiztechnologies.com/",
-			"location": "EXAMPLE: Chennai, IN",
+			"location": "Madurai, IN",
 			"skills": [
 				"Solidity",
 				"Golang",
@@ -101,8 +101,8 @@
 				"Maintained and debugged code to ensure optimal performance.",
 				"Responsibility involved in the analysis, design, development, and testing phase of the Software Development Life Cycle (SDLC)."
 			],
-			"url": "EXAMPLE: https://greatinnovus.com",
-			"location": "EXAMPLE: Madurai, IN",
+			"url": "https://greatinnovus.com",
+			"location": "Madurai, IN",
 			"skills": [
 				"NodeJs",
 				"ReactJs",
@@ -117,9 +117,9 @@
 			"studyType": "Bachelor",
 			"startDate": "2016-08-01",
 			"endDate": "2019-06-30",
-			"url": "EXAMPLE: https://maduracollege.edu",
+			"url": "https://www.maduracollege.edu.in/",
 			"location": "Madurai, IN",
-			"score": "EXAMPLE: 8.2/10 CGPA",
+			"score": "8.2/10 CGPA",
 			"courses": [
 				"Data Structures",
 				"Database Systems",
@@ -185,7 +185,7 @@
 			],
 			"medias": [
 				{
-					"url": "EXAMPLE: ./assets/agones-screenshot.png",
+					"url": "./assets/agones.png",
 					"title": "Agones Dashboard"
 				}
 			]
@@ -198,7 +198,7 @@
 				"Handled blockchain-related functionalities, including the integration of smart contracts and transaction management.",
 				"Collaborated with IRCTC to integrate NFT Trace services for the Ram Mandir Temple Pilgrims."
 			],
-			"url": "EXAMPLE: https://github.com/yourusername/nftrace",
+			"url": "https://irctc.nfttrace.com/login",
 			"skills": [
 				"Solidity",
 				"Ethereum",
@@ -206,7 +206,7 @@
 			],
 			"medias": [
 				{
-					"url": "EXAMPLE: ./assets/nftrace-demo.gif",
+					"url": "./assets/agones.png",
 					"title": "NFTrace Demo"
 				}
 			]
@@ -219,13 +219,18 @@
 				"Developed and executed a scalable solution for fetching Blockchain data in chunks, ensuring efficient retrieval of accounts and balances.",
 				"Implemented Go's concurrency and used Redis as a cache database."
 			],
-			"url": "EXAMPLE: https://koinbx.com",
+			"url": "https://koinbx.com",
 			"skills": [
 				"Golang",
 				"Redis",
 				"Blockchain"
 			],
-			"medias": []
+			"medias": [
+				{
+					"url": "./assets/agones.png",
+					"title": "NFTrace Demo"
+				}
+			]
 		},
 		{
 			"name": "OborTech",
@@ -235,13 +240,18 @@
 				"Designed and developed scalable microservices to support OBORTECH's blockchain-based BaaS platform.",
 				"Implemented Kubernetes for orchestrating blockchain nodes, optimizing resource allocation, and improving system scalability."
 			],
-			"url": "EXAMPLE: https://obortech.io",
+			"url": "https://www.obortech.io/",
 			"skills": [
 				"Kubernetes",
 				"Microservices",
 				"Golang"
 			],
-			"medias": []
+			"medias": [
+				{
+					"url": "./assets/agones.png",
+					"title": "NFTrace Demo"
+				}
+			]
 		}
 	],
 	"languages": [
@@ -269,12 +279,6 @@
 				"Agones",
 				"Kubernetes"
 			]
-		}
-	],
-	"references": [
-		{
-			"name": "EXAMPLE: John Doe",
-			"reference": "EXAMPLE: CTO at Tech Mahindra. Aravindh was instrumental in our cloud gaming platform's success."
 		}
 	],
 	"meta": {

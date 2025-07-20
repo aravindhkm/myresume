@@ -4,6 +4,7 @@ import resume from "../resume.json";
  * get the url to the website icon
  */
 export const getWebsiteIcon = async (url: string) => {
+	console.log("calling", url);
 	const html = await fetch(url).then((res) => res.text());
 	const iconUrls = [...html.matchAll(/<link[^>]*>/g)]
 		.filter(([l]) => l.match(/rel="([^"]+)"/)?.[1].includes("icon"))
@@ -70,16 +71,16 @@ export const generateMarkdown = async ({
 		...resume.work.flatMap((w, i) => [
 			//
 			"- " +
-				(logos[i]
-					? `<img width="16px" height="16px" src="${logos[i]}" alt="${w.name} logo" />`
-					: "") +
-				` **${w.name}**`,
+			(logos[i]
+				? `<img width="16px" height="16px" src="${logos[i]}" alt="${w.name} logo" />`
+				: "") +
+			` **${w.name}**`,
 
 			"  " +
-				(w.location ? `${w.location} ` : "") +
-				`_${dateFmt(w.startDate)} - ` +
-				(w.endDate ? dateFmt(w.endDate) : "present") +
-				"_",
+			(w.location ? `${w.location} ` : "") +
+			`_${dateFmt(w.startDate)} - ` +
+			(w.endDate ? dateFmt(w.endDate) : "present") +
+			"_",
 			"",
 			"  " + (w.summary ?? ""),
 			...w.highlights.flatMap((h) => "  - " + h),
@@ -93,11 +94,11 @@ export const generateMarkdown = async ({
 		"",
 		...resume.education.flatMap((e, i) => [
 			"- " +
-				(logos[resume.work.length + i]
-					? `<img width="16px" height="16px" src="${logos[resume.work.length + i]}" alt="${e.institution} logo" />`
-					: "") +
-				` **${e.institution}**` +
-				` _${new Date(e.startDate).getFullYear()} - ${new Date(e.endDate).getFullYear()}_`,
+			(logos[resume.work.length + i]
+				? `<img width="16px" height="16px" src="${logos[resume.work.length + i]}" alt="${e.institution} logo" />`
+				: "") +
+			` **${e.institution}**` +
+			` _${new Date(e.startDate).getFullYear()} - ${new Date(e.endDate).getFullYear()}_`,
 
 			"",
 			`  ${e.studyType} | ${e.area}`,
