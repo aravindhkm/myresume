@@ -21,7 +21,7 @@
 -  **Chaincode Consulting LLP**
   Bengaluru, IN _05/2023 - 07/2024_
 
-  Contributed to the development and testing of backend infrastructure for blockchain-based BaaS solutions, gaining hands-on experience with blockchain protocols and BaaS integration.
+  - Contributed to the development and testing of backend infrastructure for blockchain-based BaaS solutions, gaining hands-on experience with blockchain protocols and BaaS integration.
   - Implemented Kubernetes orchestration for blockchain nodes, optimizing resource allocation and enhancing scalability.
   - Contributed to the design and implementation of permissioned blockchain network, tailored to meet specific enterprise requirements.
 
@@ -30,7 +30,7 @@
 -  **Osiz Technologies**
   Madurai, IN _09/2020 - 02/2023_
 
-  Coordinated daily project activities, including design, planning, and implementation, in collaboration with the Research and Development team.
+  - Coordinated daily project activities, including design, planning, and implementation, in collaboration with the Research and Development team.
   - Developed and deployed smart contracts and decentralized applications (dApps) on Ethereum; created chaincode in Go for asset tracking on Hyperledger Fabric.
 
   _Solidity, Golang, Ethereum, Hyperledger Fabric_
