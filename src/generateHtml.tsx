@@ -8,56 +8,34 @@ import { getWebsiteIcon } from "./generateMarkdown";
 type IResume = typeof resume;
 
 export const generateHtml = async () => {
-	console.log("🔧 [generateHtml] Starting resume HTML generation...");
-
-	console.log("📦 [Bun.build] Building and minifying CSS from style.css...");
 	const res = await Bun.build({
 		minify: true,
 		entrypoints: [__dirname + "/style.css"],
 	});
 	const cssContent = await res.outputs[0].text();
-	console.log("✅ [Bun.build] CSS build complete. Length:", cssContent.length);
 
-	console.log("🌐 [Logo Fetch] Collecting URLs from work and education...");
-	const allUrls = [
-		...resume.work.map((w) => w.url),
-		...resume.education.map((e) => e.url),
-	].filter((url): url is string => typeof url === "string");
-
-	console.log("🔍 [Logo Fetch] Fetching icons for URLs...");
 	const logos = await Promise.all(
-		allUrls.map(async (url) => {
-			console.log(`🌐 [Favicon] Fetching icon for ${url}`);
-			const icon = await getWebsiteIcon(url);
-			console.log(`✅ [Favicon] Got icon for ${url}: ${icon}`);
-			return [url, icon];
-		}),
+		[...resume.work.map((w) => w.url), ...resume.education.map((w) => w.url)]
+			.filter((url) => url !== undefined)
+			.map(async (url) => [url, await getWebsiteIcon(url)]),
 	).then(Object.fromEntries);
-	console.log("🧩 [Logo Map] Total logos fetched:", Object.keys(logos).length);
 
-	console.log("🧹 [Filter] Filtering out irrelevant work experience...");
-	const initialWorkCount = resume.work.length;
+	// remove irrelevant xp
 	resume.work = resume.work.filter(
-		(w) => !w.name.toLowerCase().match(/(hola|mushin|arthur)/),
+		(w) => !w.name.toLocaleLowerCase().match(/(hola|mushin|arthur)/),
 	);
-	console.log(`🧾 [Filter] Removed ${initialWorkCount - resume.work.length} entries.`);
 
-	console.log("🧱 [React] Rendering resume content to string...");
-	const resumeContent = renderToString(<Resume resume={resume} logos={logos} />);
-	console.log("✅ [React] Resume content rendered.");
+	const resumeContent = renderToString(
+		<Resume resume={resume} logos={logos} />,
+	);
 
-	console.log("🧱 [React] Rendering final HTML with embedded CSS and resume content...");
-	const finalHtml = (
+	return (
 		"<!doctype html>" +
 		renderToString(<Html content={resumeContent} css={cssContent} />).replace(
 			/<body>/,
 			`<body><button id="fit-to-print" onclick="${fnBody.replaceAll('"', `'`)}">fit to print</button>`,
 		)
 	);
-	console.log("✅ [React] Final HTML rendered. Length:", finalHtml.length);
-
-	console.log("🎉 [generateHtml] Done!");
-	return finalHtml;
 };
 
 
