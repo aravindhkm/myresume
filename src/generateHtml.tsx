@@ -87,10 +87,14 @@ const Resume = ({
       <h1>
         {resume.basics.name} | {resume.basics.label}
       </h1>
-      <address>
-        <ShortUrl href={resume.basics.url} />
+      <address>        
+		<ShortUrl href={resume.basics.profiles[1].url} />
         {" · "}
         <ShortUrl href={resume.basics.profiles[0].url} />
+        {" · "}
+        <ShortUrl href={resume.basics.url} />
+        {" · "}
+		<a href="tel:+918072830270">8072830270</a>
         {" · "}
         <a href={`mailto:${resume.basics.email}`}>{resume.basics.email}</a>
       </address>

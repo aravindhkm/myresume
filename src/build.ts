@@ -1,4 +1,4 @@
-import { generateHtml } from "./generateHtml.tsx";
+import { generateHtml } from "./generateHtml";
 import { writeFileSync } from "fs";
 
 (async () => {
