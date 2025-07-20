@@ -1,101 +1,103 @@
-# Aravindh KM | Software Engineer
+# Aravindh | Software Engineer
 
-[linkedin.com/in/0xaravindh](https://www.linkedin.com/in/0xaravindh) · [github.com/aravindhkm](https://github.com/aravindhkm) · [x.com/0xaravindh](https://x.com/0xaravindh) · [aravindhkathiresan@gmail.com](mailto:aravindhkathiresan@gmail.com)
+[github.com/aravindhkm](https://github.com/aravindhkm) · [github.com/aravindhkm](https://github.com/aravindhkm) · [linkedin.com/in/0xaravindh](https://linkedin.com/in/0xaravindh) · [aravindhkathiresan@gmail.com](mailto:aravindhkathiresan@gmail.com)
 
-> Passionate about building scalable backend systems and blockchain-powered applications.
+> 6 years of IT experience in all phases of the SDLC, including requirement analysis, design, development, testing, and implementation. Experienced in building RESTful APIs, microservices, and cloud-based solutions. Focused on writing clean, scalable code and ensuring quality through testing. Strong team player with a track record of delivering solutions that meet business needs. Also an active open-source contributor.
 
 ---
 
 # Work
 
-- **Tech Mahindra**  
-  _Software Engineer — July 2024 - Present_
+-  **Tech Mahindra**
+  _07/2024 - 06/2025_
 
-  - Spearheaded release automation and deployment for Google’s Cloud Gaming Platform.
-  - Contributed to Agones (Google's open-source Kubernetes project) by handling releases, triaging issues, fixing bugs, and supporting the developer community.
-  - Collaborated with Google engineering teams to monitor production systems and resolve deployment bottlenecks.
+  Spearheaded release automation and deployment processes for Google’s Cloud Gaming Platform, ensuring efficient and reliable delivery cycles.
+  - Contributed to Agones, Google’s open-source Kubernetes-based project for dedicated game server hosting, by handling releases, triaging issues, fixing bugs, and supporting the developer community.
+  - Collaborated closely with Google engineering teams to monitor production systems, streamline workflows, and resolve deployment bottlenecks in real-time.
+  - Played a key role in ensuring the seamless and scalable rollout of features critical to the success of Google’s multiplayer cloud gaming infrastructure.
 
-  _Kubernetes, Agones, Google Cloud, CI/CD_
+  _Golang, Kubernetes, Docker, gRPC_
 
-- **Chaincode Consulting LLP**  
-  _Senior Programmer — May 2023 - July 2024_
+-  **Chaincode Consulting LLP**
+  _05/2023 - 07/2024_
 
-  - Developed and tested backend infrastructure for blockchain-based BaaS solutions.
-  - Designed permissioned blockchain networks tailored to enterprise requirements.
-  - Implemented Kubernetes orchestration to improve resource allocation and scalability.
+  Contributed to the development and testing of backend infrastructure for blockchain-based BaaS solutions, gaining hands-on experience with blockchain protocols and BaaS integration.
+  - Implemented Kubernetes orchestration for blockchain nodes, optimizing resource allocation and enhancing scalability.
+  - Contributed to the design and implementation of permissioned blockchain network, tailored to meet specific enterprise requirements.
 
-  _Hyperledger Fabric, Kubernetes, Docker, Blockchain_
+  _Golang, Hyperledger Fabric, Kubernetes, Blockchain_
 
-- **Osiz Technologies**  
-  _Programmer — Sep 2020 - Feb 2023_
+-  **Osiz Technologies**
+  _09/2020 - 02/2023_
 
-  - Developed and deployed smart contracts and dApps on Ethereum.
-  - Built chaincode for asset tracking using Hyperledger Fabric.
-  - Coordinated design and development efforts with the R&D team.
+  Coordinated daily project activities, including design, planning, and implementation, in collaboration with the Research and Development team.
+  - Developed and deployed smart contracts and decentralized applications (dApps) on Ethereum; created chaincode in Go for asset tracking on Hyperledger Fabric.
 
-  _Solidity, Go, Ethereum, Hyperledger_
+  _Solidity, Golang, Ethereum, Hyperledger Fabric_
 
-- **Great-Innovus Solutions**  
-  _Associate Software Engineer — Aug 2019 - Sep 2020_
+-  **Great-Innovus Solutions**
+  _08/2019 - 09/2020_
 
-  - Designed and implemented software applications.
-  - Maintained and optimized code performance.
-  - Contributed to all SDLC phases including analysis, development, and testing.
+  Worked with the team to design, develop, and implement software applications.
+  - Maintained and debugged code to ensure optimal performance.
+  - Responsibility involved in the analysis, design, development, and testing phase of the Software Development Life Cycle (SDLC).
 
----
+  _NodeJs, ReactJs, PostgreSQL_
+
 
 # Education
 
-- **Bachelor of Science in Information Technology**  
-  _Madura College, Madurai — Aug 2016 - Jun 2019_
+-  **Madura College** _2016 - 2019_
 
----
+  Bachelor | Bachelor of Science in Information Technology
 
 # Projects
 
-- **Agones**  
-  [github.com/googleforgames/agones](https://github.com/googleforgames/agones)  
-  - Open-source Kubernetes-based game server hosting platform by Google.  
-  - Contributed to release management, bug fixes, developer support, and community engagement.
+- **Agones** [github.com/googleforgames/agones](https://github.com/googleforgames/agones)
 
-- **KoinBX**  
-  [koinbx.com](https://koinbx.com)  
-  - Developed scalable APIs using Go concurrency for efficient blockchain data retrieval.  
-  - Integrated Redis for optimized caching and performance.
+  Google’s open-source Kubernetes-based project for dedicated game server hosting.
 
-- **NFTrace**  
-  [nfttrace.com](https://www.nfttrace.com)  
-  - Built NFT-based digital records management platform.  
-  - Integrated smart contracts and optimized transaction handling.  
-  - Partnered with IRCTC for Ram Mandir Temple Pilgrim services.
+ 
 
-- **OborTech**  
-  [obortech.io](https://www.obortech.io)  
-  - Designed scalable microservices for BaaS supply chain solution.  
-  - Used Kubernetes for node orchestration and infrastructure scalability.
+- **NFTrace**
 
----
+  A platform that harnesses the power of non-fungible tokens (NFTs) to transform industries by providing tamper-proof, traceable, digital records management.
+
+ 
+
+- **KoinBX**
+
+  A cutting-edge crypto trading platform.
+
+ 
+
+- **OborTech**
+
+  An all-in-one solution to enable digitized and traceable supply chains.
+
+ 
 
 # Skills
 
-- **Web Development**  
-  _React.js, TypeScript, HTML, CSS_
+- **Programming Languages**
 
-- **Blockchain Development**  
-  _Solidity, Ethereum, NFTs, Hyperledger Fabric, Chaincode_
+  _Golang, NodeJs, Rust, Solidity_
 
-- **Backend Development**  
-  _Golang, Node.js, gRPC, Redis, PostgreSQL, MongoDB_
+- **Backend & Cloud**
 
-- **DevOps & Infrastructure**  
-  _Kubernetes, Docker, Jenkins, GitHub Actions, CI/CD, Terraform, Google Cloud, AWS_
+  _gRPC, Kubernetes, Docker, PostgreSQL, MongoDB, Kafka_
 
-- **Distributed Systems**  
-  _Kafka, Microservices, REST APIs_
+- **Blockchain**
 
----
+  _Hyperledger Fabric, Ethereum, Smart Contracts, BaaS_
+
+- **Frontend**
+
+  _ReactJs_
 
 # Languages
 
-- **English** — Full Professional  
-- **Tamil** — Native Speaker
+- **Tamil** Native Speaker
+
+- **English** Professional Working Proficiency
+

@@ -3,13 +3,17 @@
 	"basics": {
 		"name": "Aravindh",
 		"label": "Software Engineer",
+		"image": "EXAMPLE: https://example.com/path/to/your/avatar.jpg",
 		"email": "aravindhkathiresan@gmail.com",
 		"phone": "+91 807 283 02 70",
 		"url": "https://github.com/aravindhkm",
 		"summary": "6 years of IT experience in all phases of the SDLC, including requirement analysis, design, development, testing, and implementation. Experienced in building RESTful APIs, microservices, and cloud-based solutions. Focused on writing clean, scalable code and ensuring quality through testing. Strong team player with a track record of delivering solutions that meet business needs. Also an active open-source contributor.",
 		"location": {
+			"address": "EXAMPLE: 123 Tech Street",
+			"postalCode": "EXAMPLE: 560001",
 			"city": "Bengaluru",
-			"countryCode": "IN"
+			"countryCode": "IN",
+			"region": "EXAMPLE: Karnataka"
 		},
 		"profiles": [
 			{
@@ -19,7 +23,13 @@
 			},
 			{
 				"network": "LinkedIn",
+				"username": "0xaravindh",
 				"url": "https://linkedin.com/in/0xaravindh"
+			},
+			{
+				"network": "Twitter",
+				"username": "EXAMPLE: yourtwitterhandle",
+				"url": "EXAMPLE: https://twitter.com/yourtwitterhandle"
 			}
 		]
 	},
@@ -29,12 +39,14 @@
 			"position": "Software Engineer",
 			"startDate": "2024-07-01",
 			"endDate": "2025-06-30",
-			"summary": "Spearheaded release automation and deployment processes for Google’s Cloud Gaming Platform, ensuring efficient and reliable delivery cycles.",
+			"summary": "Spearheaded release automation and deployment processes for Google's Cloud Gaming Platform, ensuring efficient and reliable delivery cycles.",
 			"highlights": [
-				"Contributed to Agones, Google’s open-source Kubernetes-based project for dedicated game server hosting, by handling releases, triaging issues, fixing bugs, and supporting the developer community.",
+				"Contributed to Agones, Google's open-source Kubernetes-based project for dedicated game server hosting, by handling releases, triaging issues, fixing bugs, and supporting the developer community.",
 				"Collaborated closely with Google engineering teams to monitor production systems, streamline workflows, and resolve deployment bottlenecks in real-time.",
-				"Played a key role in ensuring the seamless and scalable rollout of features critical to the success of Google’s multiplayer cloud gaming infrastructure."
+				"Played a key role in ensuring the seamless and scalable rollout of features critical to the success of Google's multiplayer cloud gaming infrastructure."
 			],
+			"url": "EXAMPLE: https://techmahindra.com",
+			"location": "Bengaluru, IN",
 			"skills": [
 				"Golang",
 				"Kubernetes",
@@ -52,6 +64,8 @@
 				"Implemented Kubernetes orchestration for blockchain nodes, optimizing resource allocation and enhancing scalability.",
 				"Contributed to the design and implementation of permissioned blockchain network, tailored to meet specific enterprise requirements."
 			],
+			"url": "EXAMPLE: https://chaincode.com",
+			"location": "EXAMPLE: Remote",
 			"skills": [
 				"Golang",
 				"Hyperledger Fabric",
@@ -68,6 +82,8 @@
 			"highlights": [
 				"Developed and deployed smart contracts and decentralized applications (dApps) on Ethereum; created chaincode in Go for asset tracking on Hyperledger Fabric."
 			],
+			"url": "EXAMPLE: https://osiztech.com",
+			"location": "EXAMPLE: Chennai, IN",
 			"skills": [
 				"Solidity",
 				"Golang",
@@ -85,6 +101,8 @@
 				"Maintained and debugged code to ensure optimal performance.",
 				"Responsibility involved in the analysis, design, development, and testing phase of the Software Development Life Cycle (SDLC)."
 			],
+			"url": "EXAMPLE: https://greatinnovus.com",
+			"location": "EXAMPLE: Madurai, IN",
 			"skills": [
 				"NodeJs",
 				"ReactJs",
@@ -99,12 +117,20 @@
 			"studyType": "Bachelor",
 			"startDate": "2016-08-01",
 			"endDate": "2019-06-30",
-			"location": "Madurai, IN"
+			"url": "EXAMPLE: https://maduracollege.edu",
+			"location": "Madurai, IN",
+			"score": "EXAMPLE: 8.2/10 CGPA",
+			"courses": [
+				"Data Structures",
+				"Database Systems",
+				"Computer Networks"
+			]
 		}
 	],
 	"skills": [
 		{
 			"name": "Programming Languages",
+			"level": "Expert",
 			"keywords": [
 				"Golang",
 				"NodeJs",
@@ -114,6 +140,7 @@
 		},
 		{
 			"name": "Backend & Cloud",
+			"level": "Expert",
 			"keywords": [
 				"gRPC",
 				"Kubernetes",
@@ -125,6 +152,7 @@
 		},
 		{
 			"name": "Blockchain",
+			"level": "Advanced",
 			"keywords": [
 				"Hyperledger Fabric",
 				"Ethereum",
@@ -134,6 +162,7 @@
 		},
 		{
 			"name": "Frontend",
+			"level": "Intermediate",
 			"keywords": [
 				"ReactJs"
 			]
@@ -142,36 +171,110 @@
 	"projects": [
 		{
 			"name": "Agones",
-			"summary": "Google’s open-source Kubernetes-based project for dedicated game server hosting.",
+			"description": "Google's open-source Kubernetes-based project for dedicated game server hosting.",
+			"summary": "Contributed to Agones project handling releases and community support.",
 			"highlights": [
 				"Handled releases, triaged issues, fixed bugs, and supported the developer community.",
 				"Collaborated closely with Google engineering teams to monitor production systems and streamline workflows."
 			],
-			"url": "https://github.com/googleforgames/agones"
+			"url": "https://github.com/googleforgames/agones",
+			"skills": [
+				"Golang",
+				"Kubernetes",
+				"gRPC"
+			],
+			"medias": [
+				{
+					"url": "EXAMPLE: ./assets/agones-screenshot.png",
+					"title": "Agones Dashboard"
+				}
+			]
 		},
 		{
 			"name": "NFTrace",
+			"description": "Blockchain platform for tamper-proof digital records management using NFTs.",
 			"summary": "A platform that harnesses the power of non-fungible tokens (NFTs) to transform industries by providing tamper-proof, traceable, digital records management.",
 			"highlights": [
 				"Handled blockchain-related functionalities, including the integration of smart contracts and transaction management.",
 				"Collaborated with IRCTC to integrate NFT Trace services for the Ram Mandir Temple Pilgrims."
+			],
+			"url": "EXAMPLE: https://github.com/yourusername/nftrace",
+			"skills": [
+				"Solidity",
+				"Ethereum",
+				"NodeJs"
+			],
+			"medias": [
+				{
+					"url": "EXAMPLE: ./assets/nftrace-demo.gif",
+					"title": "NFTrace Demo"
+				}
 			]
 		},
 		{
 			"name": "KoinBX",
+			"description": "Cryptocurrency trading platform with efficient blockchain data handling.",
 			"summary": "A cutting-edge crypto trading platform.",
 			"highlights": [
 				"Developed and executed a scalable solution for fetching Blockchain data in chunks, ensuring efficient retrieval of accounts and balances.",
-				"Implemented Go’s concurrency and used Redis as a cache database."
-			]
+				"Implemented Go's concurrency and used Redis as a cache database."
+			],
+			"url": "EXAMPLE: https://koinbx.com",
+			"skills": [
+				"Golang",
+				"Redis",
+				"Blockchain"
+			],
+			"medias": []
 		},
 		{
 			"name": "OborTech",
+			"description": "Blockchain-based supply chain management platform.",
 			"summary": "An all-in-one solution to enable digitized and traceable supply chains.",
 			"highlights": [
-				"Designed and developed scalable microservices to support OBORTECH’s blockchain-based BaaS platform.",
+				"Designed and developed scalable microservices to support OBORTECH's blockchain-based BaaS platform.",
 				"Implemented Kubernetes for orchestrating blockchain nodes, optimizing resource allocation, and improving system scalability."
+			],
+			"url": "EXAMPLE: https://obortech.io",
+			"skills": [
+				"Kubernetes",
+				"Microservices",
+				"Golang"
+			],
+			"medias": []
+		}
+	],
+	"languages": [
+		{
+			"language": "Tamil",
+			"fluency": "Native Speaker"
+		},
+		{
+			"language": "English",
+			"fluency": "Professional Working Proficiency"
+		}
+	],
+	"interests": [
+		{
+			"name": "Blockchain Technology",
+			"keywords": [
+				"Ethereum",
+				"Smart Contracts",
+				"DeFi"
 			]
+		},
+		{
+			"name": "Open Source Contribution",
+			"keywords": [
+				"Agones",
+				"Kubernetes"
+			]
+		}
+	],
+	"references": [
+		{
+			"name": "EXAMPLE: John Doe",
+			"reference": "EXAMPLE: CTO at Tech Mahindra. Aravindh was instrumental in our cloud gaming platform's success."
 		}
 	],
 	"meta": {
